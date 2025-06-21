@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_14/project_14.srcs/sources_1/new/priority83.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority83
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_14/project_14.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

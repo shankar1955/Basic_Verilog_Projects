@@ -1,0 +1,25 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_23.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "half_adder_0": ""
+    },
+    "components": {
+      "half_adder_0": {
+        "vlnv": "xilinx.com:user:half_adder:1.0",
+        "ip_revision": "3",
+        "xci_name": "design_1_half_adder_0_0",
+        "xci_path": "ip\\design_1_half_adder_0_0\\design_1_half_adder_0_0.xci",
+        "inst_hier_path": "half_adder_0"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_22.ip_user_files/bd/sample/ipshared/b28e/src/ha.v" \
+"../../../../project_22.ip_user_files/bd/sample/ip/sample_half_adder_0_0/sim/sample_half_adder_0_0.v" \
+"../../../../project_22.ip_user_files/bd/sample/ip/sample_half_adder_0_1/sim/sample_half_adder_0_1.v" \
+"../../../../project_22.ip_user_files/bd/sample/ip/sample_util_vector_logic_0_0/sim/sample_util_vector_logic_0_0.v" \
+"../../../../project_22.ip_user_files/bd/sample/sim/sample.v" \
+"../../../../project_22.gen/sources_1/bd/sample/hdl/sample_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

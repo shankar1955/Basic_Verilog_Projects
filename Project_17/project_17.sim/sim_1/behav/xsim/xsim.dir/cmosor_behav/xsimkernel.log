@@ -1,0 +1,4 @@
+Running: xsim.dir/cmosor_behav/xsimk.exe -simmode gui -wdb cmosor_behav.wdb -simrunnum 0 -socket 55363
+Design successfully loaded
+Design Loading Memory Usage: 28544 KB (Peak: 28544 KB)
+Design Loading CPU Usage: 592 ms

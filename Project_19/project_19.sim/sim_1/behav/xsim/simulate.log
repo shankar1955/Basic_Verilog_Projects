@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Value of a: 0, b: 1 & sum:0001, cout:0 while time is                    0
+Value of a: 2, b: 3 & sum:0101, cout:0 while time is                10000
+Value of a: 4, b: 5 & sum:1001, cout:0 while time is                20000
+Value of a: 6, b: 7 & sum:1101, cout:0 while time is                30000
+Value of a: 8, b: 9 & sum:0001, cout:1 while time is                40000
+$finish called at time : 50 ns : File "C:/bvp/project_19/project_19.srcs/sim_1/new/rcatb.v" Line 17

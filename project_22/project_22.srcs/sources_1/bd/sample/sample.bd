@@ -1,0 +1,129 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB256556DDD376121",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_22.gen/sources_1/bd/sample",
+      "name": "sample",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "half_adder_0": "",
+      "half_adder_1": "",
+      "util_vector_logic_0": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I"
+      },
+      "b": {
+        "direction": "I"
+      },
+      "sum": {
+        "direction": "O"
+      },
+      "cout": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "cin": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "half_adder_0": {
+        "vlnv": "xilinx.com:user:half_adder:1.0",
+        "ip_revision": "2",
+        "xci_name": "sample_half_adder_0_0",
+        "xci_path": "ip\\sample_half_adder_0_0\\sample_half_adder_0_0.xci",
+        "inst_hier_path": "half_adder_0"
+      },
+      "half_adder_1": {
+        "vlnv": "xilinx.com:user:half_adder:1.0",
+        "ip_revision": "2",
+        "xci_name": "sample_half_adder_0_1",
+        "xci_path": "ip\\sample_half_adder_0_1\\sample_half_adder_0_1.xci",
+        "inst_hier_path": "half_adder_1"
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "ip_revision": "4",
+        "xci_name": "sample_util_vector_logic_0_0",
+        "xci_path": "ip\\sample_util_vector_logic_0_0\\sample_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "half_adder_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "half_adder_0/b"
+        ]
+      },
+      "b_0_2": {
+        "ports": [
+          "cin",
+          "half_adder_1/b"
+        ]
+      },
+      "half_adder_0_c": {
+        "ports": [
+          "half_adder_0/c",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "half_adder_0_s": {
+        "ports": [
+          "half_adder_0/s",
+          "half_adder_1/a"
+        ]
+      },
+      "half_adder_1_c": {
+        "ports": [
+          "half_adder_1/c",
+          "util_vector_logic_0/Op2"
+        ]
+      },
+      "half_adder_1_s": {
+        "ports": [
+          "half_adder_1/s",
+          "sum"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "cout"
+        ]
+      }
+    }
+  }
+}

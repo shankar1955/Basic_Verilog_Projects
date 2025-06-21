@@ -1,0 +1,978 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF9C45A3DF9C45A3D",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_26.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "hier_5": {
+        "hier_4": {
+          "MUX21_0": "",
+          "hier_2": {
+            "mux41_0": "",
+            "mux41_1": ""
+          }
+        },
+        "hier_3": {
+          "hier_0": {
+            "xlslice_0": "",
+            "xlslice_1": "",
+            "xlslice_2": "",
+            "xlslice_3": "",
+            "xlslice_4": "",
+            "xlslice_5": "",
+            "xlslice_6": "",
+            "xlslice_7": ""
+          },
+          "hier_1": {
+            "xlslice_8": "",
+            "xlslice_9": ""
+          }
+        }
+      }
+    },
+    "ports": {
+      "y": {
+        "direction": "O"
+      },
+      "i": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "s": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      }
+    },
+    "components": {
+      "hier_5": {
+        "ports": {
+          "y": {
+            "direction": "O"
+          },
+          "i": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "s": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          }
+        },
+        "components": {
+          "hier_4": {
+            "ports": {
+              "sel": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              },
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "c": {
+                "direction": "I"
+              },
+              "d": {
+                "direction": "I"
+              },
+              "sel1": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "a1": {
+                "direction": "I"
+              },
+              "b1": {
+                "direction": "I"
+              },
+              "c1": {
+                "direction": "I"
+              },
+              "d1": {
+                "direction": "I"
+              }
+            },
+            "components": {
+              "MUX21_0": {
+                "vlnv": "xilinx.com:module_ref:MUX21:1.0",
+                "ip_revision": "1",
+                "xci_name": "design_2_MUX21_0_0",
+                "xci_path": "ip\\design_2_MUX21_0_0\\design_2_MUX21_0_0.xci",
+                "inst_hier_path": "hier_5/hier_4/MUX21_0",
+                "reference_info": {
+                  "ref_type": "hdl",
+                  "ref_name": "MUX21",
+                  "boundary_crc": "0x0"
+                },
+                "ports": {
+                  "a": {
+                    "direction": "I"
+                  },
+                  "b": {
+                    "direction": "I"
+                  },
+                  "sel": {
+                    "direction": "I"
+                  },
+                  "y": {
+                    "direction": "O"
+                  }
+                }
+              },
+              "hier_2": {
+                "ports": {
+                  "a": {
+                    "direction": "I"
+                  },
+                  "b": {
+                    "direction": "I"
+                  },
+                  "c": {
+                    "direction": "I"
+                  },
+                  "d": {
+                    "direction": "I"
+                  },
+                  "sel": {
+                    "direction": "I",
+                    "left": "1",
+                    "right": "0"
+                  },
+                  "y": {
+                    "direction": "O"
+                  },
+                  "a1": {
+                    "direction": "I"
+                  },
+                  "b1": {
+                    "direction": "I"
+                  },
+                  "c1": {
+                    "direction": "I"
+                  },
+                  "d1": {
+                    "direction": "I"
+                  },
+                  "y1": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "mux41_0": {
+                    "vlnv": "xilinx.com:module_ref:mux41:1.0",
+                    "ip_revision": "1",
+                    "xci_name": "design_2_mux41_0_0",
+                    "xci_path": "ip\\design_2_mux41_0_0\\design_2_mux41_0_0.xci",
+                    "inst_hier_path": "hier_5/hier_4/hier_2/mux41_0",
+                    "reference_info": {
+                      "ref_type": "hdl",
+                      "ref_name": "mux41",
+                      "boundary_crc": "0x0"
+                    },
+                    "ports": {
+                      "a": {
+                        "direction": "I"
+                      },
+                      "b": {
+                        "direction": "I"
+                      },
+                      "c": {
+                        "direction": "I"
+                      },
+                      "d": {
+                        "direction": "I"
+                      },
+                      "sel": {
+                        "direction": "I",
+                        "left": "1",
+                        "right": "0"
+                      },
+                      "y": {
+                        "direction": "O"
+                      }
+                    }
+                  },
+                  "mux41_1": {
+                    "vlnv": "xilinx.com:module_ref:mux41:1.0",
+                    "ip_revision": "1",
+                    "xci_name": "design_2_mux41_0_3",
+                    "xci_path": "ip\\design_2_mux41_0_3\\design_2_mux41_0_3.xci",
+                    "inst_hier_path": "hier_5/hier_4/hier_2/mux41_1",
+                    "reference_info": {
+                      "ref_type": "hdl",
+                      "ref_name": "mux41",
+                      "boundary_crc": "0x0"
+                    },
+                    "ports": {
+                      "a": {
+                        "direction": "I"
+                      },
+                      "b": {
+                        "direction": "I"
+                      },
+                      "c": {
+                        "direction": "I"
+                      },
+                      "d": {
+                        "direction": "I"
+                      },
+                      "sel": {
+                        "direction": "I",
+                        "left": "1",
+                        "right": "0"
+                      },
+                      "y": {
+                        "direction": "O"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "mux41_0_y": {
+                    "ports": [
+                      "mux41_0/y",
+                      "y"
+                    ]
+                  },
+                  "mux41_1_y": {
+                    "ports": [
+                      "mux41_1/y",
+                      "y1"
+                    ]
+                  },
+                  "xlslice_0_Dout": {
+                    "ports": [
+                      "a",
+                      "mux41_0/a"
+                    ]
+                  },
+                  "xlslice_1_Dout": {
+                    "ports": [
+                      "b",
+                      "mux41_0/b"
+                    ]
+                  },
+                  "xlslice_2_Dout": {
+                    "ports": [
+                      "c",
+                      "mux41_0/c"
+                    ]
+                  },
+                  "xlslice_3_Dout": {
+                    "ports": [
+                      "d",
+                      "mux41_0/d"
+                    ]
+                  },
+                  "xlslice_4_Dout": {
+                    "ports": [
+                      "a1",
+                      "mux41_1/a"
+                    ]
+                  },
+                  "xlslice_5_Dout": {
+                    "ports": [
+                      "b1",
+                      "mux41_1/b"
+                    ]
+                  },
+                  "xlslice_6_Dout": {
+                    "ports": [
+                      "c1",
+                      "mux41_1/c"
+                    ]
+                  },
+                  "xlslice_7_Dout": {
+                    "ports": [
+                      "d1",
+                      "mux41_1/d"
+                    ]
+                  },
+                  "xlslice_8_Dout": {
+                    "ports": [
+                      "sel",
+                      "mux41_1/sel",
+                      "mux41_0/sel"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "MUX21_0_y": {
+                "ports": [
+                  "MUX21_0/y",
+                  "y"
+                ]
+              },
+              "mux41_0_y": {
+                "ports": [
+                  "hier_2/y",
+                  "MUX21_0/a"
+                ]
+              },
+              "mux41_1_y": {
+                "ports": [
+                  "hier_2/y1",
+                  "MUX21_0/b"
+                ]
+              },
+              "xlslice_0_Dout": {
+                "ports": [
+                  "a",
+                  "hier_2/a"
+                ]
+              },
+              "xlslice_1_Dout": {
+                "ports": [
+                  "b",
+                  "hier_2/b"
+                ]
+              },
+              "xlslice_2_Dout": {
+                "ports": [
+                  "c",
+                  "hier_2/c"
+                ]
+              },
+              "xlslice_3_Dout": {
+                "ports": [
+                  "d",
+                  "hier_2/d"
+                ]
+              },
+              "xlslice_4_Dout": {
+                "ports": [
+                  "a1",
+                  "hier_2/a1"
+                ]
+              },
+              "xlslice_5_Dout": {
+                "ports": [
+                  "b1",
+                  "hier_2/b1"
+                ]
+              },
+              "xlslice_6_Dout": {
+                "ports": [
+                  "c1",
+                  "hier_2/c1"
+                ]
+              },
+              "xlslice_7_Dout": {
+                "ports": [
+                  "d1",
+                  "hier_2/d1"
+                ]
+              },
+              "xlslice_8_Dout": {
+                "ports": [
+                  "sel1",
+                  "hier_2/sel"
+                ]
+              },
+              "xlslice_9_Dout": {
+                "ports": [
+                  "sel",
+                  "MUX21_0/sel"
+                ]
+              }
+            }
+          },
+          "hier_3": {
+            "ports": {
+              "i": {
+                "direction": "I",
+                "left": "7",
+                "right": "0"
+              },
+              "Dout": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout1": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout2": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout3": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout4": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout5": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout6": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "Dout7": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              },
+              "s": {
+                "direction": "I",
+                "left": "2",
+                "right": "0"
+              },
+              "Dout8": {
+                "direction": "O",
+                "left": "1",
+                "right": "0"
+              },
+              "Dout9": {
+                "direction": "O",
+                "left": "0",
+                "right": "0"
+              }
+            },
+            "components": {
+              "hier_0": {
+                "ports": {
+                  "i": {
+                    "direction": "I",
+                    "left": "7",
+                    "right": "0"
+                  },
+                  "Dout": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout1": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout2": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout3": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout4": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout5": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout6": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "Dout7": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  }
+                },
+                "components": {
+                  "xlslice_0": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_0",
+                    "xci_path": "ip\\design_2_xlslice_0_0\\design_2_xlslice_0_0.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_0",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "7"
+                      },
+                      "DIN_TO": {
+                        "value": "7"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_1": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_1",
+                    "xci_path": "ip\\design_2_xlslice_0_1\\design_2_xlslice_0_1.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_1",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "6"
+                      },
+                      "DIN_TO": {
+                        "value": "6"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_2": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_2",
+                    "xci_path": "ip\\design_2_xlslice_0_2\\design_2_xlslice_0_2.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_2",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "5"
+                      },
+                      "DIN_TO": {
+                        "value": "5"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_3": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_3",
+                    "xci_path": "ip\\design_2_xlslice_0_3\\design_2_xlslice_0_3.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_3",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "4"
+                      },
+                      "DIN_TO": {
+                        "value": "4"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_4": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_4",
+                    "xci_path": "ip\\design_2_xlslice_0_4\\design_2_xlslice_0_4.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_4",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "3"
+                      },
+                      "DIN_TO": {
+                        "value": "3"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_5": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_5",
+                    "xci_path": "ip\\design_2_xlslice_0_5\\design_2_xlslice_0_5.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_5",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "2"
+                      },
+                      "DIN_TO": {
+                        "value": "2"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_6": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_6",
+                    "xci_path": "ip\\design_2_xlslice_0_6\\design_2_xlslice_0_6.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_6",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "1"
+                      },
+                      "DIN_TO": {
+                        "value": "1"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  },
+                  "xlslice_7": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_0_7",
+                    "xci_path": "ip\\design_2_xlslice_0_7\\design_2_xlslice_0_7.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_0/xlslice_7",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "0"
+                      },
+                      "DIN_TO": {
+                        "value": "0"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "8"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "i_1": {
+                    "ports": [
+                      "i",
+                      "xlslice_1/Din",
+                      "xlslice_2/Din",
+                      "xlslice_3/Din",
+                      "xlslice_4/Din",
+                      "xlslice_5/Din",
+                      "xlslice_6/Din",
+                      "xlslice_7/Din",
+                      "xlslice_0/Din"
+                    ]
+                  },
+                  "xlslice_0_Dout": {
+                    "ports": [
+                      "xlslice_0/Dout",
+                      "Dout"
+                    ]
+                  },
+                  "xlslice_1_Dout": {
+                    "ports": [
+                      "xlslice_1/Dout",
+                      "Dout1"
+                    ]
+                  },
+                  "xlslice_2_Dout": {
+                    "ports": [
+                      "xlslice_2/Dout",
+                      "Dout2"
+                    ]
+                  },
+                  "xlslice_3_Dout": {
+                    "ports": [
+                      "xlslice_3/Dout",
+                      "Dout3"
+                    ]
+                  },
+                  "xlslice_4_Dout": {
+                    "ports": [
+                      "xlslice_4/Dout",
+                      "Dout4"
+                    ]
+                  },
+                  "xlslice_5_Dout": {
+                    "ports": [
+                      "xlslice_5/Dout",
+                      "Dout5"
+                    ]
+                  },
+                  "xlslice_6_Dout": {
+                    "ports": [
+                      "xlslice_6/Dout",
+                      "Dout6"
+                    ]
+                  },
+                  "xlslice_7_Dout": {
+                    "ports": [
+                      "xlslice_7/Dout",
+                      "Dout7"
+                    ]
+                  }
+                }
+              },
+              "hier_1": {
+                "ports": {
+                  "s": {
+                    "direction": "I",
+                    "left": "2",
+                    "right": "0"
+                  },
+                  "Dout": {
+                    "direction": "O",
+                    "left": "1",
+                    "right": "0"
+                  },
+                  "Dout1": {
+                    "direction": "O",
+                    "left": "0",
+                    "right": "0"
+                  }
+                },
+                "components": {
+                  "xlslice_8": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_8_0",
+                    "xci_path": "ip\\design_2_xlslice_8_0\\design_2_xlslice_8_0.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_1/xlslice_8",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "1"
+                      },
+                      "DIN_TO": {
+                        "value": "0"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "3"
+                      }
+                    }
+                  },
+                  "xlslice_9": {
+                    "vlnv": "xilinx.com:ip:xlslice:1.0",
+                    "ip_revision": "4",
+                    "xci_name": "design_2_xlslice_8_1",
+                    "xci_path": "ip\\design_2_xlslice_8_1\\design_2_xlslice_8_1.xci",
+                    "inst_hier_path": "hier_5/hier_3/hier_1/xlslice_9",
+                    "parameters": {
+                      "DIN_FROM": {
+                        "value": "2"
+                      },
+                      "DIN_TO": {
+                        "value": "2"
+                      },
+                      "DIN_WIDTH": {
+                        "value": "3"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "s_1": {
+                    "ports": [
+                      "s",
+                      "xlslice_9/Din",
+                      "xlslice_8/Din"
+                    ]
+                  },
+                  "xlslice_8_Dout": {
+                    "ports": [
+                      "xlslice_8/Dout",
+                      "Dout"
+                    ]
+                  },
+                  "xlslice_9_Dout": {
+                    "ports": [
+                      "xlslice_9/Dout",
+                      "Dout1"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "i_1": {
+                "ports": [
+                  "i",
+                  "hier_0/i"
+                ]
+              },
+              "s_1": {
+                "ports": [
+                  "s",
+                  "hier_1/s"
+                ]
+              },
+              "xlslice_0_Dout": {
+                "ports": [
+                  "hier_0/Dout",
+                  "Dout"
+                ]
+              },
+              "xlslice_1_Dout": {
+                "ports": [
+                  "hier_0/Dout1",
+                  "Dout1"
+                ]
+              },
+              "xlslice_2_Dout": {
+                "ports": [
+                  "hier_0/Dout2",
+                  "Dout2"
+                ]
+              },
+              "xlslice_3_Dout": {
+                "ports": [
+                  "hier_0/Dout3",
+                  "Dout3"
+                ]
+              },
+              "xlslice_4_Dout": {
+                "ports": [
+                  "hier_0/Dout4",
+                  "Dout4"
+                ]
+              },
+              "xlslice_5_Dout": {
+                "ports": [
+                  "hier_0/Dout5",
+                  "Dout5"
+                ]
+              },
+              "xlslice_6_Dout": {
+                "ports": [
+                  "hier_0/Dout6",
+                  "Dout6"
+                ]
+              },
+              "xlslice_7_Dout": {
+                "ports": [
+                  "hier_0/Dout7",
+                  "Dout7"
+                ]
+              },
+              "xlslice_8_Dout": {
+                "ports": [
+                  "hier_1/Dout",
+                  "Dout8"
+                ]
+              },
+              "xlslice_9_Dout": {
+                "ports": [
+                  "hier_1/Dout1",
+                  "Dout9"
+                ]
+              }
+            }
+          }
+        },
+        "nets": {
+          "MUX21_0_y": {
+            "ports": [
+              "hier_4/y",
+              "y"
+            ]
+          },
+          "i_1": {
+            "ports": [
+              "i",
+              "hier_3/i"
+            ]
+          },
+          "s_1": {
+            "ports": [
+              "s",
+              "hier_3/s"
+            ]
+          },
+          "xlslice_0_Dout": {
+            "ports": [
+              "hier_3/Dout",
+              "hier_4/a"
+            ]
+          },
+          "xlslice_1_Dout": {
+            "ports": [
+              "hier_3/Dout1",
+              "hier_4/b"
+            ]
+          },
+          "xlslice_2_Dout": {
+            "ports": [
+              "hier_3/Dout2",
+              "hier_4/c"
+            ]
+          },
+          "xlslice_3_Dout": {
+            "ports": [
+              "hier_3/Dout3",
+              "hier_4/d"
+            ]
+          },
+          "xlslice_4_Dout": {
+            "ports": [
+              "hier_3/Dout4",
+              "hier_4/a1"
+            ]
+          },
+          "xlslice_5_Dout": {
+            "ports": [
+              "hier_3/Dout5",
+              "hier_4/b1"
+            ]
+          },
+          "xlslice_6_Dout": {
+            "ports": [
+              "hier_3/Dout6",
+              "hier_4/c1"
+            ]
+          },
+          "xlslice_7_Dout": {
+            "ports": [
+              "hier_3/Dout7",
+              "hier_4/d1"
+            ]
+          },
+          "xlslice_8_Dout": {
+            "ports": [
+              "hier_3/Dout8",
+              "hier_4/sel1"
+            ]
+          },
+          "xlslice_9_Dout": {
+            "ports": [
+              "hier_3/Dout9",
+              "hier_4/sel"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "MUX21_0_y": {
+        "ports": [
+          "hier_5/y",
+          "y"
+        ]
+      },
+      "i_1": {
+        "ports": [
+          "i",
+          "hier_5/i"
+        ]
+      },
+      "s_1": {
+        "ports": [
+          "s",
+          "hier_5/s"
+        ]
+      }
+    }
+  }
+}

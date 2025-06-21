@@ -1,0 +1,22 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/bvp/project_26/project_26.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v,1749475102,verilog,,,,design_2_wrapper,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_MUX21_0_0/sim/design_2_MUX21_0_0.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_0/sim/design_2_xlslice_0_0.v,,design_2_MUX21_0_0,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_mux41_0_0/sim/design_2_mux41_0_0.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_mux41_0_3/sim/design_2_mux41_0_3.v,,design_2_mux41_0_0,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_mux41_0_3/sim/design_2_mux41_0_3.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_MUX21_0_0/sim/design_2_MUX21_0_0.v,,design_2_mux41_0_3,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_0/sim/design_2_xlslice_0_0.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_1/sim/design_2_xlslice_0_1.v,,design_2_xlslice_0_0,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_1/sim/design_2_xlslice_0_1.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_2/sim/design_2_xlslice_0_2.v,,design_2_xlslice_0_1,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_2/sim/design_2_xlslice_0_2.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_3/sim/design_2_xlslice_0_3.v,,design_2_xlslice_0_2,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_3/sim/design_2_xlslice_0_3.v,1749475103,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_4/sim/design_2_xlslice_0_4.v,,design_2_xlslice_0_3,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_4/sim/design_2_xlslice_0_4.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_5/sim/design_2_xlslice_0_5.v,,design_2_xlslice_0_4,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_5/sim/design_2_xlslice_0_5.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_6/sim/design_2_xlslice_0_6.v,,design_2_xlslice_0_5,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_6/sim/design_2_xlslice_0_6.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_7/sim/design_2_xlslice_0_7.v,,design_2_xlslice_0_6,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_0_7/sim/design_2_xlslice_0_7.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_8_0/sim/design_2_xlslice_8_0.v,,design_2_xlslice_0_7,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_8_0/sim/design_2_xlslice_8_0.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_8_1/sim/design_2_xlslice_8_1.v,,design_2_xlslice_8_0,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_xlslice_8_1/sim/design_2_xlslice_8_1.v,1749475104,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/sim/design_2.v,,design_2_xlslice_8_1,,,,,,,,
+C:/bvp/project_26/project_26.ip_user_files/bd/design_2/sim/design_2.v,1749475102,verilog,,C:/bvp/project_26/project_26.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v,,design_2;hier_0_imp_5ZU7VS;hier_1_imp_SQSDN;hier_2_imp_1J3K2VV;hier_3_imp_1N7JG6W;hier_4_imp_1D46B8X;hier_5_imp_108212C,,,,,,,,
+C:/bvp/project_26/project_26.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/bvp/project_26/project_26.srcs/sources_1/new/MUX21.v,1749473709,verilog,,C:/bvp/project_26/project_26.ip_user_files/bd/design_2/ip/design_2_mux41_0_0/sim/design_2_mux41_0_0.v,,MUX21,,,,,,,,
+C:/bvp/project_26/project_26.srcs/sources_1/new/mux41.v,1749453227,verilog,,C:/bvp/project_26/project_26.srcs/sources_1/new/MUX21.v,,mux41,,,,,,,,

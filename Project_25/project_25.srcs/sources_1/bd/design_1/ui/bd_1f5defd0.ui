@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.813497",
+   "Default View_TopLeft":"208,-483",
+   "ExpandedHierarchyInLayout":"/hier_2",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_cin -pg 1 -lvl 1 -x 500 -y -400 -defaultsOSRD -top
+preplace portBus ain -pg 1 -lvl 1 -x 440 -y -400 -defaultsOSRD -top
+preplace portBus bin -pg 1 -lvl 1 -x 470 -y -400 -defaultsOSRD -top
+preplace portBus dout -pg 1 -lvl 1 -x 530 -y -400 -defaultsOSRD -top
+preplace inst hier_0 -pg 1 -lvl 1 -x 510 -y -160 -defaultsOSRD
+preplace inst hier_1 -pg 1 -lvl 1 -x 510 -y 230 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 1426 -y 20 -defaultsOSRD
+preplace inst hier_2 -pg 1 -lvl 2 -x 790 -y 12 -defaultsOSRD
+preplace inst hier_2|fa_1 -pg 1 -lvl 1 -x 860 -y 12 -defaultsOSRD
+preplace inst hier_2|fa_2 -pg 1 -lvl 2 -x 1080 -y 222 -defaultsOSRD
+preplace inst hier_2|fa_0 -pg 1 -lvl 2 -x 1080 -y 2 -defaultsOSRD
+preplace inst hier_2|fa_3 -pg 1 -lvl 1 -x 860 -y 232 -defaultsOSRD
+preplace netloc ain_1 1 0 1 400 -390n
+preplace netloc bin_1 1 0 1 410 -380n
+preplace netloc cin_0_1 1 1 1 680J -380n
+preplace netloc fa_0_cout 1 2 1 1270 12n
+preplace netloc fa_0_s 1 2 1 1280 -8n
+preplace netloc fa_1_s 1 2 1 1310 -78n
+preplace netloc fa_2_s 1 2 1 1290 -28n
+preplace netloc fa_3_s 1 2 1 1300 -20n
+preplace netloc xlconcat_0_dout 1 1 3 610 -250 N -250 1520
+preplace netloc xlslice_0_Dout 1 1 1 650 -190n
+preplace netloc xlslice_1_Dout 1 1 1 670 -170n
+preplace netloc xlslice_2_Dout 1 1 1 660 -150n
+preplace netloc xlslice_3_Dout 1 1 1 610 -130n
+preplace netloc xlslice_4_Dout 1 1 1 630 200n
+preplace netloc xlslice_5_Dout 1 1 1 640 112n
+preplace netloc xlslice_6_Dout 1 1 1 620 12n
+preplace netloc xlslice_7_Dout 1 1 1 670 152n
+preplace netloc hier_2|cin_0_1 1 0 1 N 252
+preplace netloc hier_2|fa_0_cout 1 2 1 N 12
+preplace netloc hier_2|fa_0_s 1 2 1 N -8
+preplace netloc hier_2|fa_1_cout 1 1 1 N 22
+preplace netloc hier_2|fa_1_s 1 1 2 960 -78 NJ
+preplace netloc hier_2|fa_2_cout 1 0 3 770 122 NJ 122 1170
+preplace netloc hier_2|fa_2_s 1 2 1 1180 -28n
+preplace netloc hier_2|fa_3_cout 1 1 1 N 242
+preplace netloc hier_2|fa_3_s 1 1 2 950 302 NJ
+preplace netloc hier_2|xlslice_0_Dout 1 0 1 N 212
+preplace netloc hier_2|xlslice_1_Dout 1 0 2 NJ 92 980
+preplace netloc hier_2|xlslice_2_Dout 1 0 1 N -8
+preplace netloc hier_2|xlslice_3_Dout 1 0 2 NJ 132 970
+preplace netloc hier_2|xlslice_4_Dout 1 0 1 N 232
+preplace netloc hier_2|xlslice_5_Dout 1 0 2 NJ 112 960
+preplace netloc hier_2|xlslice_6_Dout 1 0 1 N 12
+preplace netloc hier_2|xlslice_7_Dout 1 0 2 NJ 152 990
+levelinfo -pg 1 -270 510 790 1426 1540
+levelinfo -hier hier_2 * 860 1080 *
+pagesize -pg 1 -db -bbox -sgen -370 -510 1800 620
+pagesize -hier hier_2 -db -bbox -sgen 740 -98 1210 312
+"
+}
+0

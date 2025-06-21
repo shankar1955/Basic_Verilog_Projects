@@ -1,0 +1,37 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_4 -L xlconcat_v2_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_4.xlslice_v1_0_4_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xlslice_v1_0_4.xlslice_v1_0_4_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xlslice_v1_0_4.xlslice_v1_0_4_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xlslice_v1_0_4.xlslice_v1_0_4_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_3
+Compiling module xil_defaultlib.hier_0_imp_MHUNTD
+Compiling module xil_defaultlib.design_1_xlslice_0_4
+Compiling module xil_defaultlib.design_1_xlslice_1_0
+Compiling module xil_defaultlib.design_1_xlslice_2_0
+Compiling module xil_defaultlib.design_1_xlslice_3_0
+Compiling module xil_defaultlib.hier_1_imp_JJAEZ6
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.design_1_fa_0_0
+Compiling module xil_defaultlib.design_1_fa_0_1
+Compiling module xil_defaultlib.design_1_fa_0_2
+Compiling module xil_defaultlib.design_1_fa_0_3
+Compiling module xil_defaultlib.hier_2_imp_ZHJ3IV
+Compiling module xlconcat_v2_1_6.xlconcat_v2_1_6_xlconcat(dout_wi...
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_behav

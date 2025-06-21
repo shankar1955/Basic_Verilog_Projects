@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.ip_user_files/bd/sample/ipshared/b28e/src/ha.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.ip_user_files/bd/sample/ip/sample_half_adder_0_0/sim/sample_half_adder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample_half_adder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.ip_user_files/bd/sample/ip/sample_half_adder_0_1/sim/sample_half_adder_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample_half_adder_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.ip_user_files/bd/sample/ip/sample_util_vector_logic_0_0/sim/sample_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.ip_user_files/bd/sample/sim/sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/bvp/project_22/project_22.gen/sources_1/bd/sample/hdl/sample_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample_wrapper
